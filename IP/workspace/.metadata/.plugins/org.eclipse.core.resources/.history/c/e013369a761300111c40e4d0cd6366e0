@@ -1,0 +1,19 @@
+package exemplos;
+
+import java.util.Scanner;
+
+public class SALARIO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner teclado = new Scanner(System.in);
+		 System.out.print("informe seu salario: ");
+		 double salario = teclado.nextLine();
+		 System.out.print("informe o valor da porcentagem do seu reajuste: ");
+		 double porcentagem = teclado.nextLine();
+		 double novosalario = salario + (salario * porcentagem/100);
+		 System.out.print("seu novo salario é:" novosalario);
+
+	}
+
+}
